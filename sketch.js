@@ -12,6 +12,8 @@ function setup(){
     arrow1: "arrow1.png",
     restart0: "restart0.png",
     restart1: "restart1.png",
+    clickArrow0: "clickArrow0.png",
+    clickArrow1: "clickArrow1.png",
   })
   
   
