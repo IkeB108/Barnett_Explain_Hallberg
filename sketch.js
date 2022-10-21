@@ -86,6 +86,15 @@ function draw(){
     if(restartr.visible()){
       image(window["restart" + n], restartr.x, restartr.y, restartr.w, restartr.w)
     }
+    if(animationFrame == 0){
+      n = floor(frameCount/20) % 2
+      img = window["clickArrow" + n]
+      let w = width/3
+      let h = img.height * (w/img.width)
+      let x = width/2
+      let y = height * 0.9
+      image(img, x, y, w, h)
+    }
   } else {
     background(255)
     fill(0); textSize(width/20)
